@@ -4,7 +4,8 @@
 </p>
 
 ## [GMCNet]
-Many researchers use handcrafted rotation-invariant features to facilitate point cloud registration (PCR), and many other researchers choose not to use handcrafted rotation-invariant features as they think those features require consistent observations.  In this work, we study on using variaous handcrafted features for point cloud registration, and prove that they could improve PCR even under arbitraty transformations in the full SE(3).  The synergy between a local transformer (attention-based) and a hierarhical architecture further improve the PCR performance.
+Many researchers use handcrafted rotation-invariant features to facilitate point cloud registration (PCR), and many other researchers choose not to use handcrafted rotation-invariant features as they think those features require consistent observations or correct surface normal.  In this work, we study on using variaous handcrafted features that are computed on-the-fly for PCR, and prove that they could improve PCR even under arbitraty transformations in the full SE(3).  The synergy between a local transformer (attention-based) and a hierarhical architecture further improve the PCR performance.
+
 This repository contains the PyTorch implementation of the paper:
 
 **Robust Partial-to-Partial Point Cloud Registration in a Full Range**
