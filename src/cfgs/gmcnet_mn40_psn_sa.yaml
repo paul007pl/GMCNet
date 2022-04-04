@@ -1,0 +1,56 @@
+batch_size: 16
+workers: 0
+nepoch: 200
+model_name: gmcnet
+exp_name: psn_sa
+load_model: null
+start_epoch: 0
+work_dir: log/gmcnet/psn_sa
+flag: debug
+
+manual_seed: null
+
+step_interval_to_print: 200
+step_interval_to_plot: 250
+epoch_interval_to_save: 10
+epoch_interval_to_val: 1
+
+lr: 0.0004
+lr_decay: True
+lr_decay_rate: 0.5
+lr_clip: 1.e-4
+optimizer: Adam
+weight_decay: 0
+betas: 0.9, 0.999
+
+descriptor_size: 128
+# num_iters: 3
+knn_list: "64, 64, 64"
+down_sample_list: "2, 4"
+feature_size_list: "128, 64, 32, 16"
+use_annealing: True
+rif_only: False
+rif_feature: ppf # ppf, rri, fpfh
+use_weighted_procrustes: False
+predict_inliers: False
+
+
+use_cycle_loss: True
+use_mse_loss: 0.0
+use_cd_loss: 1.0
+use_inliers_loss: 0.01
+reductioin: mean
+
+max_angle: 45
+max_trans: 0.5
+category: null
+benchmark: MN40
+
+gaussian_noise: True
+unseen: False
+partial: True
+small_angle: True
+
+num_rot_levels: -1
+num_corr_levels: -1
+
