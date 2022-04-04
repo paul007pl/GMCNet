@@ -30,7 +30,7 @@ If your connection to conda and/or pip is unstable, it is recommended to follow 
 
 
 ### Data
-Please download our prepared ([ModelNet40](https://www.dropbox.com/sh/tdfs406baoyugda/AADe8GV3w7CaORUDO6nCnRSra?dl=0)) and ([MVP-RG](https://github.com/paul007pl/MVP_Benchmark/tree/main/registration)) data to the folder `data`.
+Please download our prepared [ModelNet40](https://www.dropbox.com/sh/tdfs406baoyugda/AADe8GV3w7CaORUDO6nCnRSra?dl=0) and [MVP-RG](https://github.com/paul007pl/MVP_Benchmark/tree/main/registration) data to the folder `data`.
 
 
 ### Usage
