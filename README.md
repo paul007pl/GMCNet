@@ -26,7 +26,7 @@ If your connection to conda and/or pip is unstable, it is recommended to follow 
 
 
 ### Data
-Please download our prepared data ([Dropbox](https://www.dropbox.com/sh/tdfs406baoyugda/AADe8GV3w7CaORUDO6nCnRSra?dl=0) to the folder `data`.
+Please download our prepared data ([Dropbox](https://www.dropbox.com/sh/tdfs406baoyugda/AADe8GV3w7CaORUDO6nCnRSra?dl=0)) to the folder `data`.
 
 
 ### Usage
@@ -36,8 +36,22 @@ Please download our prepared data ([Dropbox](https://www.dropbox.com/sh/tdfs406b
 + `run_train.sh` and `run_test.sh` are provided for SLURM users. 
 
 
+## [Citation]
+If you find our code useful, please cite our paper:
+```bibtex
+@article{pan2021robust,
+  title={Robust Partial-to-Partial Point Cloud Registration in a Full Range},
+  author={Pan, Liang and Cai, Zhongang and Liu, Ziwei},
+  journal={arXiv preprint arXiv:2111.15606},
+  year={2021}
+}
+```
+
+
 ## [License]
 Our code is released under Apache-2.0 License.
 
 
 ## [Acknowledgement]
+Part of code are borrowed from [DeepGMR](https://github.com/wentaoyuan/deepgmr), [RPMNet](https://github.com/yewzijian/RPMNet) and [DCP](https://github.com/WangYueFt/dcp).
+Please also consider citing their paper.
