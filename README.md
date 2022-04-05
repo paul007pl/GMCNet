@@ -34,8 +34,8 @@ Please download our prepared [ModelNet40](https://www.dropbox.com/sh/tdfs406baoy
 
 
 ### Usage
-+ To train a model: run `python train.py -c *.yaml`, e.g. `python train.py -c pcn.yaml`
-+ To test a model: run `python test.py -c *.yaml`, e.g. `python test.py -c pcn.yaml`
++ To train a model: run `python train.py -c *.yaml`, e.g. `python train.py -c gmcnet_mn40_psc.yaml`
++ To test a model: run `python test.py -c *.yaml`, e.g. `python test.py -c gmcnet_mn40_psc.yaml`
 + Config for each algorithm can be found in `cfgs/`.
 + `run_train.sh` and `run_test.sh` are provided for SLURM users. 
 
